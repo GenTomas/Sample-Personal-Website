@@ -1,0 +1,614 @@
+body {
+	
+	font:15px/1.5em "century gothic", Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	background-color: #f4f4f4;
+}
+
+.container {
+	width:60%;
+	margin:auto;
+	overflow: hidden;
+	margin-top:0;
+	margin-bottom:0;
+	text-align: justify;
+}
+
+/* Header */
+header {
+	width: 100%;
+}
+
+.heading {
+    height: 60px;
+    background: #050A30;
+    border-bottom: 3px solid #ffd800;
+}
+
+.heading img {
+    display: block;
+    padding: 5x 10px 5px 0px;
+}
+
+#banner img {
+    width: 100%;
+}
+
+.showcase {
+    background-image:url('../Images/Banner Photo.png');
+	width: auto;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 500px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 60% auto;
+}
+
+.showcase .main {
+    text-align: center;
+	color: #fff;
+    margin-top: -300px;
+}
+
+.showcase h1 {
+	text-transform: uppercase;
+}
+
+.main button {
+	width: 190px;
+	height: 50px;
+	font: 20px/1.5em "century gothic", Helvetica, sans-serif;
+	font-weight: bold;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.4s;
+	margin-top: 20px;
+}
+
+button:hover {
+	background: rgb(2, 109, 250);
+	color: #fff;
+	border: none;
+	width: 210px;
+	height: 60px;
+	font-size: 22px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+}
+
+
+/* NAVIGATION */
+
+
+nav {
+	height: 55px;
+	background-color: #050A30;
+}
+
+nav ul {
+	padding-inline-start: 0;
+}
+
+nav li{
+	display: inline;
+	font-size: 20px;
+}
+
+nav li #start {
+	padding-left: 0;
+}
+
+nav a{
+	color:#ffffff;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 0 20px 0 20px;
+	border-right:#ffd800 3px solid;
+	transition-duration: 0.4s;
+}
+
+nav #end {
+	border-right: none;
+}
+ 
+nav a:hover{
+	color:rgb(2, 180, 250);
+}
+
+nav a:active{
+	color:rgb(2, 180, 250);
+}
+
+nav #active {
+	font-weight: bold;
+	color: rgb(2, 180, 250);
+}
+
+/* SEARCH */
+
+form {
+	width: 400px;
+	margin: auto;
+	margin-top: 250px;
+  }
+  
+  input {
+	padding: 4px 10px;
+	border: 0;
+	font-size: 16px;
+  }
+  
+  .search {
+	width: 75%;
+  }
+  
+  .submit {
+	width: 70px;
+	background-color: #1c87c9;
+	color: #ffffff;
+  }
+
+/* BODY */
+.sec_grid {
+	display: grid;
+	grid-template-columns: 70% auto;
+	column-gap: 40px;
+	margin-top: 50px;
+}
+
+.main {
+	display: block;
+}
+
+/* OVERVIEW */
+#overview img {
+	display: block;
+	width: 150px;
+	float: right;
+	padding: 0 0 20px 20px;
+}
+
+#right {
+	float: right;
+}
+
+#right button {
+	width: 150px;
+	height: 40px;
+	font-size: 15px;
+	box-shadow: none;
+	transition-duration: 0.4s;
+}
+
+/* SCHOOLING */
+#school h1{
+	margin-top: 30px;
+}
+
+#schooling .educ {
+	margin-right: 40px;
+}
+
+#schooling {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	column-gap: 30px;
+}
+
+#schooling .school_label {
+	font-size: 12px;
+}
+
+#schooling img {
+	width: 100%;
+	padding: 0px 20px 10px 0px;
+}
+
+#schooling #pesc img{
+	height: 80%;
+}
+
+.educ {
+	width: 60%;
+}
+
+
+/* SKILLS */
+.skill_column {
+	display: grid;
+	grid-template-columns: 33% 33% 34%;
+	column-gap: 30px;
+}
+
+.skill_column img {
+	width: 100%;
+	padding: 10px 20px 10px 0px;
+}
+
+.skill_row {
+	margin: 20px 40px 0 0;
+}
+
+/* VISIONS */
+#visions {
+	display: block;
+}
+
+#visions .resize {
+	margin-bottom: 40px;
+}
+
+#visions img {
+	width: 100%;
+}
+
+#sec_grid #content_side a{
+	color:#000;
+	text-decoration: none;
+	transition-duration: 0.4s;
+}
+
+#vision #end {
+	border-right: none;
+}
+ 
+#vision a:hover{
+	color:rgb(0, 68, 255);
+}
+
+.head {
+	font-size: 50px;
+	text-align: center;
+}
+
+/* ABOUT */
+#noel_lopez {
+	width: 200px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+#noel_lopez img {
+	display: block;
+	width: 200px;
+	padding-bottom: 5px;
+}
+
+#educ_pic_1 {
+	width: 200px;
+	float: right;
+	margin: 0 0 10px 20px;
+}
+
+#educ_pic_1 img {
+	display: block;
+	width: 200px;
+	padding-bottom: 5px;
+
+}
+
+#lucia_rodriguez_1 {
+	width: 200px;
+	float: left;
+	margin: 0 20px 10px 0;
+}
+
+#lucia_rodriguez_1 img {
+	display: block;
+	width: 200px;
+	padding-bottom: 5px;
+}
+
+#lucia_rodriguez_2 {
+	width: 200px;
+	float: right;
+	margin: 0 0 10px 20px;
+}
+
+#lucia_rodriguez_2 img {
+	display: block;
+	width: 200px;
+	padding-bottom: 5px;
+}
+
+#interests {
+	display: block;
+	text-align: center;
+}
+
+#interests #item {
+	padding: 20px 0;
+	border-top: rgb(124, 124, 124) solid 1px;
+}
+
+#interests img {
+	padding-top: 10px;
+	width: 125px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#interests #end_list {
+	border-bottom: rgb(124, 124, 124) solid 1px;
+	margin-bottom: 10px;
+}
+
+#interests #item figcaption {
+	transition-duration: 0.4s;
+}
+
+#interests #item figcaption:hover {
+	color: #ff8800;
+}
+
+
+/* EDUCATION */
+
+#education img {
+	width: 300px;
+}
+
+#education #pesc img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+#education #saes img {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+#saes_pic img {
+	width: 250px;
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+#education #mwnhs img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+#mwnhs_pic img {
+	width: 150px;
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+#education #pnhsmain img {
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+#pnhsmain_pic img {
+	width: 200px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#education #puppq img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+#affiliations {
+	text-align: center;
+}
+
+#affiliations img {
+	width: 100%;
+}
+
+#affiliations figcaption {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#affiliations p{
+	margin-bottom: 60px;
+}
+
+/* VISIONS */
+#line {
+	line-height: 35px;
+}
+
+#vision #draaisab img {
+	width: 255px;
+}
+
+#vision #senior_prog_analyst img {
+	width: 255px;
+}
+
+#vision #companion img {
+	width: 350px;
+}
+
+#vision #left {
+	float: left;
+	margin: 5px 20px 10px 0;
+}
+
+#vision #right {
+	float: right;
+	margin: 5px 0 10px 20px;
+}
+
+#lit_works #item {
+	width: 100%;
+}
+/* FOOTER */
+
+footer {
+	padding:20px, 20px, 0px, 20px;
+	margin-top:20px;
+	color:white;
+	background-color: #050A30;
+	text-align:left;
+	font-size: 15px;
+	border-top: 8px solid #ffd800;
+}
+#contact {
+	margin:0;
+	padding:10px, 0px, 0px, 0px;
+}
+
+#contact div {
+	margin-top: 10px;
+}
+
+#contact p {
+	display: inline;
+	margin-bottom: 5px;
+}
+
+#contact img{
+	width:17px;
+	margin-right: 5px;
+	margin-bottom: -2px;
+}
+
+footer a:hover{
+	color:rgb(2, 180, 250);
+}
+
+#footer {
+	padding-top: 20px;
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 1200px)
+{
+	header img {
+		width: 300px;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.sec_grid {
+		display: block;
+	}
+
+	#schooling {
+		display: block;
+		width: 100%;
+	}
+
+	#schooling img {
+		width: 100%;
+	}
+
+	.skill_column {
+		display: block;
+		width: 60%;
+	}
+
+	nav {
+		height: 150px;
+		background-color: #050A30;
+	}
+/*
+	.up	{
+		height: 280px;
+	}
+*/
+
+	nav li{
+		display: block;
+		font-size: 20px;
+		padding: 0 0 10px 0;
+		text-align: center;
+	}
+	
+	nav a{
+		color:#ffffff;
+		text-decoration: none;
+		font-size: 20px;
+		transition-duration: 0.4s;
+		border: none;
+	}
+	 
+	nav a:hover{
+		color:rgb(2, 180, 250);
+	}
+	
+	nav a:active{
+		color:rgb(2, 180, 250);
+	}
+	
+	nav #active {
+		font-weight: bold;
+		color: rgb(2, 180, 250);
+	}
+
+	nav #start {
+		margin-left: 20px;
+	}
+	
+}
+
+@media only screen and (max-width: 900px)
+{
+	.showcase {
+		background-image:url('../Images/bg.jpg');
+		width: auto;
+		background-size: cover;
+		background-position: center center;
+		padding-top: 500px;
+	}
+
+	.showcase h1 {
+		text-shadow: 0px 2px 8px #000;
+	}
+
+	.grid {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 600px)
+{
+	.container {
+		width: 90%;
+	}
+
+	header img {
+		width: 200px;
+		margin-top: 15px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#overview img {
+		width: 100%;
+	}
+
+	.educ {
+		width: 100%;
+	}
+
+	.skill_column {
+		width: 100%;
+	}
+
+	#noel_lopez, #lucia_rodriguez_1, #lucia_rodriguez_2 {
+		width: 100%;
+	}
+
+	#noel_lopez img, #lucia_rodriguez_1 img, #lucia_rodriguez_2 img{
+		width: 100%;
+	}
+
+	#education #pesc img, #education #saes img, #education #mwnhs img, #education #pnhsmain img, #education #puppq img, #pnhsmain_pic img{
+		width: 100%;
+	}
+
+	#vision #draaisab img, #vision #senior_prog_analyst img, #vision #companion img {
+		width: 100%;
+	}
+}
